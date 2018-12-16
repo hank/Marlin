@@ -90,11 +90,10 @@
 //
 // Heaters / Fans
 //
-#define HEATER_0_PIN       13 // (extruder)
-
+#define HEATER_0_PIN       13
 #if ENABLED(SANGUINOLOLU_V_1_2)
 
-  #define HEATER_BED_PIN   12 // (bed)
+  #define HEATER_BED_PIN   12
   #define X_ENABLE_PIN     14
   #define Y_ENABLE_PIN     14
   #define Z_ENABLE_PIN     26
@@ -115,7 +114,7 @@
 #endif
 
 #if MB(AZTEEG_X1) || MB(STB_11) || ENABLED(IS_MELZI)
-  #define FAN_PIN           4 // Works for Panelolu2 too
+  #define FAN_PIN           4
 #endif
 
 //
